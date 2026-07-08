@@ -26,9 +26,11 @@ A dynamic web application designed to digitize student records, allowing for sec
 ---
 
 ## 🎥 Project Demo
-<video src="srms_video.mp4" width="100%" controls autoplay muted loop>
-  Your browser does not support the video tag.
-</video>
+
+
+https://github.com/user-attachments/assets/4f2bb080-cd83-4f62-8972-12e6229e9eef
+
+
 
 ---
 
