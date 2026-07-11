@@ -7,7 +7,7 @@ if (!isset($_SESSION['admin_logged_in']) || $_SESSION['admin_logged_in'] !== tru
     exit();
 }
 
-// Note: Real project mein yahan session check lagana zaroori hai security ke liye
+
 if(isset($_POST['add_student'])) {
     $roll_no = $_POST['roll_no'];
     $name = $_POST['name'];
@@ -18,9 +18,9 @@ if(isset($_POST['add_student'])) {
     $hindi = $_POST['hindi'];
     $sst = $_POST['sst'];
 
-    // Student insert karein
+    // Student insert 
     $query1 = "INSERT INTO students (roll_no, name, class) VALUES ('$roll_no', '$name', '$class')";
-    // Marks insert karein
+    // Marks insert 
     $query2 = "INSERT INTO results (roll_no, maths, science, english, hindi, sst) VALUES ('$roll_no', '$maths', '$science', '$english', '$hindi', '$sst')";
 
     if(mysqli_query($conn, $query1) && mysqli_query($conn, $query2)) {
