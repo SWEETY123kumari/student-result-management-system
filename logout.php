@@ -1,7 +1,7 @@
 <?php
 session_start();
-session_unset(); // Saare session variables delete karein
-session_destroy(); // Session khatam karein
-header("Location: admin_login.php"); // Login page par redirect karein
+session_unset(); /
+session_destroy(); 
+header("Location: admin_login.php"); 
 exit();
 ?>
