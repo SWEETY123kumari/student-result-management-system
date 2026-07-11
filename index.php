@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <style>
     @media print {
-        /* Purana rule (Jo chal raha hai) */
+    
         body * {
             visibility: hidden;
         }
@@ -22,7 +22,7 @@
             box-shadow: none !important;
         }
 
-        /* 🔥 NAYA RULE: Yeh line print ke waqt button ko poori tarah gayab kar degi */
+        
         .card.bg-white button, 
         .card.bg-white .btn, 
         button {
